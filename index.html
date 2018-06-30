@@ -1,139 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/main.css">
-	</head> 
+</head>
+
 <body>
- 
- 
- <main>
- <form action="" method="post">
-		 	<section class="breif">
- 		<div class="breif__head">
- 			<h1 class="breif__head--h1">заполните бриф</h1>
- 		</div>
- 		<span class="breif__legend">Постарайтесь наиболее подробно описать то, что вам нужно. Либо звоните, мы пообщаемся и сами заполним за вас заявку.</span>
- 		
- 		<div class="breif__services">
- 			<h2 class="breif__services--head">Услуги</h2>
- 			<div class="breif__services__check ">
- 			 
- 					
- 				
- 				
- 				
- 				
- 						<input type="checkbox" name="serv-check1" id="serv-check1" value="Аналитика">
- 				<label for="serv-check1">Аналитика</label>
- 				<input type="checkbox" name="serv-check2" id="serv-check2" value="Дизайн">
- 				<label for="serv-check2">Дизайн</label>
- 				<input type="checkbox" name="serv-check3" id="serv-check3" value="SMM">
- 				<label for="serv-check3">SMM</label>
- 				<input type="checkbox" name="serv-check4" id="serv-check4" value="Разработка сайтов">
- 				<label for="serv-check4">Разработка сайтов</label>
- 				<input type="checkbox" name="serv-check5" id="serv-check5" value="Продвижение">
- 				<label for="serv-check5">Продвижение</label>	
- 			</div>
- 		</div>
- 		<div class="breif__budget">
- 			<h2 class="breif__budget--head">Бюджет</h2>
- 			<div class="breif__budget__radio">
- 			
- 				<input type="radio" name="budget-radio" id="budget-radio1" value="100-299 тыс.">
- 				<label for="budget-radio1">100-299 тыс.</label>
- 				<input type="radio" name="budget-radio" id="budget-radio2" value="300-599 тыс.">
- 				<label for="budget-radio2">300-599 тыс.</label>
- 				<input type="radio" name="budget-radio" id="budget-radio3" value="600-999 тыс.">
- 				<label for="budget-radio3">600-999 тыс.</label>
- 				<input type="radio" name="budget-radio" id="budget-radio4" value="1-2 млн">
- 				<label for="budget-radio4">1-2 млн</label>
- 				<input type="radio" name="budget-radio" id="budget-radio5" value="Более 2 млн">
- 				<label for="budget-radio5">Более 2 млн</label>
- 				
- 			</div>
- 		</div>
- 		
- 		<div class="breif__goal">
- 		<h2 class="breif__goal--head">Задача</h2>
- 		<div class="text-input">
- 		
- 			<textarea  id="goal-text"></textarea>
- 			<span class="legend">Опишите:</span>
-</div>
- 		</div>
- 		
- 		
- 		
-		
-		<div class="breif__contact">
- 		<h2 class="breif__contact--head">Контакты</h2>
-		 	<div class="breif__contact__wrap">
-			 	<div class="breif__contact__wrap--left">
-			 
- 			 <div class="breif__contact__wrap__div">
- 			 	
- 			 	<input type="text" name="name" >
- 			 	<span class="legend">Имя:</span>
- 			 </div>
- 			  <div class="breif__contact__wrap__div">
- 			 	<input type="email" name="email" >
- 			 	 			 	<span class="legend">Email:</span>
-
- 			 </div>
-			</div>
-			  
-			  	<div class="breif__contact__wrap--right">
-			  	
-			  	
-			  	
- 			  <div class="breif__contact__wrap__div">
- 			 	<input type="tel" name="tel" >
- 			 	 			 	<span class="legend">Телефон:</span>
-
- 			 </div>
- 			  <div class="breif__contact__wrap__div">
- 			 	<input type="text" name="company" >
- 			 	 			 	<span class="legend">Компания:</span>
-
- 			 </div>
-			</div>
-</div>
- 		</div>
- 		
- 		
- 		<div class="breif__know">
- 		<h2 class="breif__know--head">Откуда вы узнали о нас?</h2>
- 		<div class="breif__know__check ">
- 		
- 		
- 			<input type="checkbox" name="know-check1" id="know-check1" value="Рекомендации">
- 			<label for="know-check1">Рекомендации</label>
- 			<input type="checkbox" name="know-check2" id="know-check2" value="Увидел(а) работу студии">
- 			<label for="know-check2">Увидел(а) работу студии</label>
- 			<input type="checkbox" name="know-check3" id="know-check3" value="Соцсети">
- 			<label for="know-check3">Соцсети</label>
- 			<input type="checkbox" name="know-check4" id="know-check4" value="Реклама">
- 			<label for="know-check4">Реклама</label>
-			</div>
- 		</div>
- 		
- 		<div class="breif__submit">
- 			<button type="submit">Отправить заявку <span></span></button>
- 			<span>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности.</span>
- 		</div>
- 	</section>
- 	</form>
-
- </main>
-
-	
+	<main>
+		<form action="" method="post">
+			<section class="breif">
+				<div class="breif__head">
+					<h1 class="breif__head--h1">заполните бриф</h1>
+				</div>
+				<span class="breif__legend">Постарайтесь наиболее подробно описать то, что вам нужно. Либо звоните, мы пообщаемся и сами заполним за вас заявку.</span>
+				<div class="breif__services">
+					<h2 class="breif__services--head">Услуги</h2>
+					<div class="breif__services__check ">
+						<input type="checkbox" name="serv-check1" id="serv-check1" value="Аналитика">
+						<label for="serv-check1">Аналитика</label>
+						<input type="checkbox" name="serv-check2" id="serv-check2" value="Дизайн">
+						<label for="serv-check2">Дизайн</label>
+						<input type="checkbox" name="serv-check3" id="serv-check3" value="SMM">
+						<label for="serv-check3">SMM</label>
+						<input type="checkbox" name="serv-check4" id="serv-check4" value="Разработка сайтов">
+						<label for="serv-check4">Разработка сайтов</label>
+						<input type="checkbox" name="serv-check5" id="serv-check5" value="Продвижение">
+						<label for="serv-check5">Продвижение</label>
+					</div>
+				</div>
+				<div class="breif__budget">
+					<h2 class="breif__budget--head">Бюджет</h2>
+					<div class="breif__budget__radio">
+						<input type="radio" name="budget-radio" id="budget-radio1" value="100-299 тыс.">
+						<label for="budget-radio1">100-299 тыс.</label>
+						<input type="radio" name="budget-radio" id="budget-radio2" value="300-599 тыс.">
+						<label for="budget-radio2">300-599 тыс.</label>
+						<input type="radio" name="budget-radio" id="budget-radio3" value="600-999 тыс.">
+						<label for="budget-radio3">600-999 тыс.</label>
+						<input type="radio" name="budget-radio" id="budget-radio4" value="1-2 млн">
+						<label for="budget-radio4">1-2 млн</label>
+						<input type="radio" name="budget-radio" id="budget-radio5" value="Более 2 млн">
+						<label for="budget-radio5">Более 2 млн</label>
+					</div>
+				</div>
+				<div class="breif__goal">
+					<h2 class="breif__goal--head">Задача</h2>
+					<div class="text-input">
+						<textarea id="goal-text"></textarea>
+						<span class="legend">Опишите:</span>
+					</div>
+				</div>
+				<div class="breif__contact">
+					<h2 class="breif__contact--head">Контакты</h2>
+					<div class="breif__contact__wrap">
+						<div class="breif__contact__wrap--left">
+							<div class="breif__contact__wrap__div">
+								<input type="text" name="name">
+								<span class="legend">Имя:</span>
+							</div>
+							<div class="breif__contact__wrap__div">
+								<input type="email" name="email">
+								<span class="legend">Email:</span>
+							</div>
+						</div>
+						<div class="breif__contact__wrap--right">
+							<div class="breif__contact__wrap__div">
+								<input type="tel" name="tel">
+								<span class="legend">Телефон:</span>
+							</div>
+							<div class="breif__contact__wrap__div">
+								<input type="text" name="company">
+								<span class="legend">Компания:</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="breif__know">
+					<h2 class="breif__know--head">Откуда вы узнали о нас?</h2>
+					<div class="breif__know__check ">
+						<input type="checkbox" name="know-check1" id="know-check1" value="Рекомендации">
+						<label for="know-check1">Рекомендации</label>
+						<input type="checkbox" name="know-check2" id="know-check2" value="Увидел(а) работу студии">
+						<label for="know-check2">Увидел(а) работу студии</label>
+						<input type="checkbox" name="know-check3" id="know-check3" value="Соцсети">
+						<label for="know-check3">Соцсети</label>
+						<input type="checkbox" name="know-check4" id="know-check4" value="Реклама">
+						<label for="know-check4">Реклама</label>
+					</div>
+				</div>
+				<div class="breif__submit">
+					<button type="submit">Отправить заявку <span></span></button>
+					<span>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности.</span>
+				</div>
+			</section>
+		</form>
+	</main>
 	<script src="js/libs.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<script src="js/common.js"></script>
-
 </body>
+
 </html>
