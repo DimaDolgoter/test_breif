@@ -1,107 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>Document</title>
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/main.css">
-</head>
-
+   
+ 
+  
+    </head>
 <body>
-	<main>
-		<form action="" method="post">
-			<section class="breif">
-				<div class="breif__head">
-					<h1 class="breif__head--h1">заполните бриф</h1>
-				</div>
-				<span class="breif__legend">Постарайтесь наиболее подробно описать то, что вам нужно. Либо звоните, мы пообщаемся и сами заполним за вас заявку.</span>
-				<div class="breif__services">
-					<h2 class="breif__services--head">Услуги</h2>
-					<div class="breif__services__check ">
-						<input type="checkbox" name="serv-check1" id="serv-check1" value="Аналитика">
-						<label for="serv-check1">Аналитика</label>
-						<input type="checkbox" name="serv-check2" id="serv-check2" value="Дизайн">
-						<label for="serv-check2">Дизайн</label>
-						<input type="checkbox" name="serv-check3" id="serv-check3" value="SMM">
-						<label for="serv-check3">SMM</label>
-						<input type="checkbox" name="serv-check4" id="serv-check4" value="Разработка сайтов">
-						<label for="serv-check4">Разработка сайтов</label>
-						<input type="checkbox" name="serv-check5" id="serv-check5" value="Продвижение">
-						<label for="serv-check5">Продвижение</label>
-					</div>
-				</div>
-				<div class="breif__budget">
-					<h2 class="breif__budget--head">Бюджет</h2>
-					<div class="breif__budget__radio">
-						<input type="radio" name="budget-radio" id="budget-radio1" value="100-299 тыс.">
-						<label for="budget-radio1">100-299 тыс.</label>
-						<input type="radio" name="budget-radio" id="budget-radio2" value="300-599 тыс.">
-						<label for="budget-radio2">300-599 тыс.</label>
-						<input type="radio" name="budget-radio" id="budget-radio3" value="600-999 тыс.">
-						<label for="budget-radio3">600-999 тыс.</label>
-						<input type="radio" name="budget-radio" id="budget-radio4" value="1-2 млн">
-						<label for="budget-radio4">1-2 млн</label>
-						<input type="radio" name="budget-radio" id="budget-radio5" value="Более 2 млн">
-						<label for="budget-radio5">Более 2 млн</label>
-					</div>
-				</div>
-				<div class="breif__goal">
-					<h2 class="breif__goal--head">Задача</h2>
-					<div class="text-input">
-						<textarea id="goal-text"></textarea>
-						<span class="legend">Опишите:</span>
-					</div>
-				</div>
-				<div class="breif__contact">
-					<h2 class="breif__contact--head">Контакты</h2>
-					<div class="breif__contact__wrap">
-						<div class="breif__contact__wrap--left">
-							<div class="breif__contact__wrap__div">
-								<input type="text" name="name">
-								<span class="legend">Имя:</span>
-							</div>
-							<div class="breif__contact__wrap__div">
-								<input type="email" name="email">
-								<span class="legend">Email:</span>
-							</div>
-						</div>
-						<div class="breif__contact__wrap--right">
-							<div class="breif__contact__wrap__div">
-								<input type="tel" name="tel">
-								<span class="legend">Телефон:</span>
-							</div>
-							<div class="breif__contact__wrap__div">
-								<input type="text" name="company">
-								<span class="legend">Компания:</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="breif__know">
-					<h2 class="breif__know--head">Откуда вы узнали о нас?</h2>
-					<div class="breif__know__check ">
-						<input type="checkbox" name="know-check1" id="know-check1" value="Рекомендации">
-						<label for="know-check1">Рекомендации</label>
-						<input type="checkbox" name="know-check2" id="know-check2" value="Увидел(а) работу студии">
-						<label for="know-check2">Увидел(а) работу студии</label>
-						<input type="checkbox" name="know-check3" id="know-check3" value="Соцсети">
-						<label for="know-check3">Соцсети</label>
-						<input type="checkbox" name="know-check4" id="know-check4" value="Реклама">
-						<label for="know-check4">Реклама</label>
-					</div>
-				</div>
-				<div class="breif__submit">
-					<button type="submit">Отправить заявку <span></span></button>
-					<span>Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь с политикой конфиденциальности.</span>
-				</div>
-			</section>
-		</form>
-	</main>
-	<script src="js/libs.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-	<script src="js/common.js"></script>
-</body>
+<header>
 
+<div class="container-fluid nopad-on-small">
+<div class="container nopad-on-small">
+   
+   
+ 
+
+    <nav class="navbar navbar-expand-lg nopad-on-small   ">
+  <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid logo" alt=""></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#fff" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   <ul class="navbar-nav ml-auto text-center ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+      </li>
+      
+      
+      
+      
+      
+      <li class="nav-item dropdown-on-jq">
+      
+      
+   <a class="nav-link" href="#">Направления</a>
+       
+       
+      <div class="nav-link  links-block" href="#">
+         
+         
+        
+          <ul class="list">
+              <li><a href="#">Море</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+          </ul>
+          <ul class="list">
+              <li><a href="#">Горы</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+          </ul>
+          <ul class="list">
+              <li><a href="#">Города</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+          </ul>
+          <ul class="list">
+              <li><a href="#">Места</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+              <li><a href="#">Анаклия</a></li>
+          </ul>
+          
+          
+      </div>
+      </li>
+      
+      
+      
+        <li class="nav-item">
+        <a class="nav-link" href="#">Страховка</a>
+      </li>  <li class="nav-item">
+        <a class="nav-link" href="#">Авиа</a>
+      </li>
+      
+       
+       
+    </ul>
+     
+  </div>
+</nav>
+    
+    </div>
+    </div>
+   
+    </header>
+    
+     
+
+   <main class="container">
+     <div class="row">
+      
+      
+       <ul class="nav nav-tabs col-12" id="myTab" role="tablist">
+  <li class="nav-item col-sm-12 col-md-3 ">
+    <a class="nav-link " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> <i class="demo-icon icon-home"></i>  жилье</a>
+  </li>
+  <li class="nav-item col-sm-12 col-md-3 ">
+    <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="demo-icon icon-beach"></i> туры</a>
+  </li>
+  <li class="nav-item col-sm-12 col-md-3 ">
+    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="demo-icon icon-ресурс-1"></i> экскурсии</a>
+  </li>
+  
+  
+            <li class="nav-item col-sm-12 col-md-3 ">
+    <a class="nav-link" id="contact-tabr" data-toggle="tab" href="#contactr" role="tab" aria-controls="contactr" aria-selected="false"><i class="demo-icon icon-car"></i> авто</a>
+  </li>
+</ul>
+<div class="tab-content container" id="myTabContent">
+ 
+  <div class="tab-pane fade " id="home" role="tabpanel" aria-labelledby="home-tab">
+  
+<img src="https://source.unsplash.com/collection/1163637/480x480" alt="">
+    </div>
+  <div class="tab-pane fade show active container " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+         <form action="" method="post">
+      <div class="filter row d-flex justify-content-between">
+         
+      
+         
+         
+          <div class="  filter_block d-flex align-items-center">
+            <img src="img/calendar.png" alt=""> <input type="text" placeholder="Интервал дат начала тура" autocomplete="off" id="datepicker"> 
+            
+          
+          </div>
+        <div class="  filter_block d-flex align-items-center">
+            <select name="day_quant"  style="text-align:center; font-size:15px;">
+                
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                
+            </select> 
+          
+          </div>
+     
+          <div class="  filter_block d-flex align-items-center "> 
+        
+        <div class="gel  d-flex align-items-center">GEL</div>
+        
+ 
+  <input type="text" id="amountprev" readonly value="1" >
+ 
+<div id="slider-range"></div>
+         <input type="text" id="amountafter" readonly >
+ 
+        </div>
+          <div class="container">
+           <div class="row">
+     <div id="accordion" class="col-12">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+       
+        <a class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <span class="arrow">	&#187;</span>  <span class="legend"> Расширенный поиск</span>
+        </a>
+         
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse    " aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body nopad-on-small row filter_checkbox">
+      <div class="col-lg-6">
+      <div class="  block">
+          <div class="block-header">
+              тип тура
+          </div>
+          <div class="block-content row">
+               <div class="col-12 block-content--checkbox tour-type">
+              
+                 <input type="checkbox" class="ch-all" name="1" id="1" value="выбрать все">
+                 <label for="1" >выбрать все</label>
+                 <input type="checkbox" name="2" id="2"  value="горно-лыжные">
+                 <label for="2">горно-лыжные</label>
+                 <input type="checkbox" name="3" id="3"  value="горно-лыжные">
+                 <label for="3">горно-лыжные</label>
+                 <input type="checkbox" name="4" id="4"  value="горно-лыжные">
+                 <label for="4">горно-лыжные</label>
+                 <input type="checkbox" name="5" id="5"  value="горно-лыжные">
+                 <label for="5">горно-лыжные</label>
+                 <input type="checkbox" name="6" id="6"  value="горно-лыжные">
+                 <label for="6">горно-лыжные</label>
+                 <input type="checkbox" name="7" id="7"  value="горно-лыжные">
+                 <label for="7">горно-лыжные</label>
+                 <input type="checkbox" name="8" id="8" value="горно-лыжные">
+                 <label for="8">горно-лыжные</label>
+                 <input type="checkbox" name="9" id="9" value="горно-лыжные">
+                 <label for="9">горно-лыжные</label> 
+                 <input type="checkbox" name="10" id="10" value="горно-лыжные">
+                 <label for="10">горно-лыжные</label>
+                  
+                     
+                 
+              </div>
+           
+          </div>
+          
+      </div>
+  
+          
+          </div>
+          
+          
+          
+          <div class="col-lg-6">
+           <div class="  block">
+          <div class="block-header">
+              питание
+          </div>
+          <div class="block-content row">
+               <div class="col-12 block-content--checkbox eat-type">
+             <input type="checkbox" name="11" id="11" value="не включено">
+             <label for="11">не включено</label>
+             <input type="checkbox" name="12" id="12" value="ВВ - Только завтрак">
+             <label for="12"><b>ВВ</b> - Только завтрак</label>
+             <input type="checkbox" name="13" id="13" value="ВВ - Только завтрак">
+             <label for="13"><b>ВВ</b> - Только завтрак</label>
+             <input type="checkbox" name="14" id="14" value="ВВ - Только завтрак">
+             <label for="14"><b>ВВ</b> - Только завтрак</label>
+             <input type="checkbox" name="15" id="15" value="ВВ - Только завтрак">
+             <label for="15"><b>ВВ</b> - Только завтрак</label>
+             <input type="checkbox" name="16" id="16" value="ВВ - Только завтрак">
+             <label for="16"><b>ВВ</b> - Только завтрак</label>
+               
+                  
+                     
+                 
+              </div>
+           </div>
+          
+      </div>
+      </div>
+      
+      <div class="col text-center">
+     <button type="submit" class="submit-btn">подобрать</button>  
+      </div>
+      
+       
+      
+      </div>
+    </div>
+  </div>
+ 
+ 
+</div>
+      </div>
+      </div>
+      </div>
+      
+      
+      </form>
+    
+  </div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><img src="https://source.unsplash.com/collection/1163637/480x480" alt=""></div>
+  <div class="tab-pane fade" id="contactr" role="tabpanel" aria-labelledby="contact-tabr"><img src="https://source.unsplash.com/collection/1163637/480x480" alt=""></div>
+</div>
+  
+  </div>
+   </main> 
+  
+ 	<script src="js/libs.min.js"></script>
+	     
+   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+   
+	<script src="js/common.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+ 
+
+</body>
 </html>
